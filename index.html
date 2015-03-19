@@ -1,7 +1,57 @@
 <!DOCTYPE html>
 <html>
+<head>
+<title>Title of My First HTML Document</title>
+
+<!-- css defined as a style tag in the head element-->
+<!--
+<style type="text/css">
+body {background-color:#eeeeee}
+p {color:red}
+form {color:red}
+</style>
+-->
+
+<!-- using external css file instead -->
+<link rel="stylesheet" type="text/css" href="theme01.css" />
+
+</head>
 <body>
-<h1>Hello World</h1>
-<p>I'm hosted with GitHub Pages.</p>
-</body>
+
+<h1 id="h1_1">My First Heading</h1>
+<hr />
+<h2>My second level heading</h2>
+
+<p>My first paragraph.</p>
+
+<p>
+This is the <a href="http://wiki.openstreetmap.org#catlinks" target="_blank">wiki</a>
+ of <a href="http://www.openstreetmap.org" target="_blank">OpenStreetMap</a>.
+<br /> <!-- put a forward slash "/" at the end of the start tag
+ is the proper way of closing an empty element in xhtml and xml -->
+
+<a href="http://sres.whu.edu.cn" target="_blank">This is my school.</a>
+
+<p>
+The following is a cover image of my dissertation.
+<br />
+<a href="http://www.itc.nl/library/papers_2012/phd/zhang.pdf" target="_blank">
+<!-- an image is embedded in a link tag -->
+<image src="alignment03.png" alt="detected alignments" title="This is an image of my PhD." />
+</a>
+</p>
+
+<a href="#h1_1">Visit the My First Heading section</a>
+<br />
+
+<hr />
+<form>
+First name: <input type="text" name="firstname"><br>
+Last name: <input type="text" name="lastname">
+</form>
+<br />
+<p>
+    Visualization of geotagged photos (version one):
+    <a href = "./mrsd_v1/index.html" target = "_blank"><em>Click Me!<em></a>
+</p>
 </html>
